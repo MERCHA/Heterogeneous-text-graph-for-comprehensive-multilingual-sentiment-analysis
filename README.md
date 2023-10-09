@@ -7,5 +7,15 @@ A portion of our code has been sourced from the repositories [TextGCN](https://g
 
 ## Requirements
 
+* Python 3.7
+* pandas 1.2.4
+* numpy 1.21.5
+* datasets from Hugging face
+* re
+* pickle 4.0
+* scipy 1.5.2
+* torch 1.11.0
+* dgl 0.8.2
+
 
 ## Running training and evaluation
