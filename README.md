@@ -18,5 +18,17 @@ A portion of our code has been sourced from the repositories [TextGCN](https://g
 * dgl 0.8.2
 * Aligned word embedding [MUSE](https://github.com/facebookresearch/MUSE)
 
-
 ## Running training and evaluation
+
+First, we provide the row data (Amazon reviews dataset, IMDB, Allociné, and Muchocine). Then, we start building the multilingual sentiment analysis corpura:
+1. `cd ./data_transform`
+2. Run `python amazon_transform.py` for multilingual amazon reviews dataset (NB: Select the set of languages) or `python MR_transform.py` for multilingual movie reviews dataset.
+Start processing the datasets
+3. `cd ./preprocess`
+4. Run `python remove_words.py <dataset>`
+5. Add the aligned word embedding and word similarity files to their corresponding directories (just the files of the languages used)
+3. Then, run `python build_graph.py <dataset>`
+4. `cd ../`
+5. Finally, run `main.py` to train and evaluate the proposed model.
+
+
