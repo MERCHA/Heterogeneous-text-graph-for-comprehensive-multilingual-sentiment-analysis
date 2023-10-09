@@ -16,6 +16,7 @@ A portion of our code has been sourced from the repositories [TextGCN](https://g
 * scipy 1.5.2
 * torch 1.11.0
 * dgl 0.8.2
+* Aligned word embedding [MUSE](https://github.com/facebookresearch/MUSE)
 
 
 ## Running training and evaluation
