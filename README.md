@@ -1,5 +1,6 @@
 # Heterogeneous-text-graph-for-comprehensive-multilingual-sentiment-analysis
 [![DOI](https://zenodo.org/badge/702031299.svg)](https://zenodo.org/doi/10.5281/zenodo.10450316)
+
 In this work, we propose a multilingual sentiment analysis approach based on graph convolution network. We create a single heterogeneous text graph to model the entire data of a multilingual corpus.
 Then, we adopt a slightly deep graph convolution network to model the entire graph and to learn words and documents representations based on heterogeneous information.
 Our work is motivated by the success of the proposed TextGCN [Yao et al. (2019)](https://arxiv.org/abs/1809.05679).
